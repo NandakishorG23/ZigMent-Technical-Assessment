@@ -1,0 +1,28 @@
+
+
+.app-container {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  width: 100vw;
+  color: rgba(200, 21, 224, 0.951);
+  background-color: #5a0dea;
+}
+
+.editor-container,
+.form-preview-container {
+  flex: 1;
+  padding: 1rem;
+  overflow-y: auto;
+}
+
+.editor-container {
+  border-right: 1px solid #5a0dea;
+}
+
+.form-preview-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: hsl(0, 100%, 1%);
+}

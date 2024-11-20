@@ -1,0 +1,14 @@
+.json-editor {
+    width: 100%;
+    height: 90%;
+    font-family: monospace;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  
+  .error-text {
+    color: red;
+    margin-top: 0.5rem;
+  }
+  
